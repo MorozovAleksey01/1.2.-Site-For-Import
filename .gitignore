@@ -1,18 +1,20 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# будут игнорироваться все файлы и каталоги Thumbs.db
+# вне зависимости от того, в каком каталоге они находятся
+Thumbs.db
+# будет игнорироваться каталог tmp
+# вне зависимости от того, в каком каталоге он находится
+# слэш в конце указывает, что это каталог
+tmp/
+# будет игнорироваться относительно файла .gitignore
+# чаще всего относительно всего проекта
+/tmp/
+# будут игнорироваться все файлы и каталоги с расширением .txt
+# вне зависимости от того, в каком каталоге они находятся
+*.txt
+# будут игнорироваться все файлы и каталоги с расширением _old
+# вне зависимости от того, в каком каталоге они находятся
+*_old
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# будут игнорироваться все файлы и каталоги с расширением ._backup
+# вне зависимости от того, в каком каталоге они находятся
+*_backup
